@@ -1,27 +1,46 @@
 # EmployeeManagementUi
+Simple Employee Management system built using Angular. User can add , view , delete  and visualise charts by departement and gender using D3.js . 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+## Features
 
-## Development server
+-**Add Employess**: User Can add employee by typing fullname , email , choose the gender and departement.
+-**Data Visualization**: 
+  -Bar chart off employees across departments.
+  -Pie chart off gender distribution.
+-**Delete Employee**: Remove employee from the list ( list update **dinamically**).
+-**Sorting the employee list**: Allow users to sort the list based on various criteria. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies used
 
-## Code scaffolding
+-**Angular**
+-**D3.js**
+-**NgModal**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instractions
 
-## Build
+Unsure you have the following installed : 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Node.js](https://nodejs.org/en/download/) (v14.x or later)
+- [Angular CLI](https://angular.io/cli) (v12.x or later)
 
-## Running unit tests
+   1. **Clone the repository**
+       ```bash
+   git clone https://github.com/Asmabayouli34/Employee-management-ui.git
+   cd employee-management
+  
+  2. Install the following to install the necessary packages :
+    ```bash
+    npm install
+  3. After installing dependencies run this : 
+ ```bash
+  ng serve 
+  or  
+  npm start  
+ 4. Open the app in a browser (http://localhost:4200/)
+   
+  
+## Future Improvements
+1.**Separate Componenets** : Currently , form , employee list , charts and sorting are all contained within a single component. The modular approach would make the application more maintainable and scalable.
+2.**Styling Improvement": I would use component library (angular Material) to create more modern design.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
