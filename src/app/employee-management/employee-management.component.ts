@@ -117,7 +117,7 @@ export class EmployeeManagementComponent {
       .call(d3.axisLeft(y));
   }
 
-  //update bar char 
+  //update pie char 
   updatePieChart() {
     const genderData = d3.rollup(
       this.employees,
