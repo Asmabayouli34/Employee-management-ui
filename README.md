@@ -1,46 +1,50 @@
 # EmployeeManagementUi
-Simple Employee Management system built using Angular. User can add , view , delete  and visualise charts by departement and gender using D3.js . 
+Simple Employee Management system built using Angular. Users can add, view, delete, and visualize charts by department and gender using D3.js.
 
 ## Features
 
--**Add Employess**: User Can add employee by typing fullname , email , choose the gender and departement.
--**Data Visualization**: 
-  -Bar chart off employees across departments.
-  -Pie chart off gender distribution.
--**Delete Employee**: Remove employee from the list ( list update **dinamically**).
--**Sorting the employee list**: Allow users to sort the list based on various criteria. 
+- **Add Employees**: Users can add employees by typing full name, email, and choosing gender and department.
+- **Data Visualization**: 
+  - Bar chart of employees across departments.
+  - Pie chart of gender distribution.
+- **Delete Employee**: Remove employees from the list (list updates **dynamically**).
+- **Sorting the Employee List**: Allow users to sort the list based on various criteria.
 
-## Technologies used
+## Technologies Used
 
--**Angular**
--**D3.js**
--**NgModal**
+- **Angular**
+- **D3.js**
+- **NgModel**
 
-## Instractions
+## Instructions
 
-Unsure you have the following installed : 
+Ensure you have the following installed: 
 
 - [Node.js](https://nodejs.org/en/download/) (v14.x or later)
 - [Angular CLI](https://angular.io/cli) (v12.x or later)
 
-   1. **Clone the repository**
-       ```bash
-   git clone https://github.com/Asmabayouli34/Employee-management-ui.git
-   cd employee-management
-  
-  2. Install the following to install the necessary packages :
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Asmabayouli34/Employee-management-ui.git
+    cd employee-management
+    ```
+
+2. **Install the necessary packages:**
     ```bash
     npm install
-  3. After installing dependencies run this : 
- ```bash
-  ng serve 
-  or  
-  npm start  
- 4. Open the app in a browser (http://localhost:4200/)
+    ```
+
+3. **Run the application:**
+    ```bash
+    ng serve
+    ```
+    or
+    ```bash
+    npm start
+    ```
+
+4. **Open the app in a browser:** [http://localhost:4200/](http://localhost:4200/)
    
-  
 ## Future Improvements
-1.**Separate Componenets** : Currently , form , employee list , charts and sorting are all contained within a single component. The modular approach would make the application more maintainable and scalable.
-2.**Styling Improvement": I would use component library (angular Material) to create more modern design.
-
-
+1. **Separate Components**: Currently, the form, employee list, charts, and sorting are all contained within a single component. A modular approach would make the application more maintainable and scalable.
+2. **Styling Improvement**: I would use a component library (like Angular Material) to create a more modern design.
